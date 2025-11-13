@@ -1,6 +1,8 @@
 import './App.css'
 import Carouseal from './Carouseal'
+import DebounceDemo from './DebounceDemo'
 import SelectBox from './SelectBox'
+import TwoPointerTracker from './TwoPointerTracker'
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
     {/* <SelectBox label={""} />
     <SelectBox label={""} />
     <SelectBox label={""} /> */}
-     
+     {/* <TwoPointerTracker /> */}
+     <DebounceDemo />
     </div>
   </>
   )
